@@ -1,0 +1,19 @@
+.roda-pe{
+    background-color:#6278F7;
+    background-image: url('C:/Users/diego/organo/public/imagem/fundo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.roda-pe ul{
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+.roda-pe p{
+    font-size: 20px;
+    color: #ffffff;
+}

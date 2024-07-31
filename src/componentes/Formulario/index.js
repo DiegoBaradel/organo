@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import Botao from '../Botao';
 import CampoTexto from '../campoTexto/CampoTexto';
 import ListaSuspensa from '../ListaSuspensa';
@@ -13,7 +14,9 @@ const [grupo,setGrupo]= useState('')
 
 const aoSalvar = (evt) =>{
     evt.preventDefault()
+    const id = uuidv4()
     const infColaborador = {
+        id,
         nome,
         cargo,
         imagem,

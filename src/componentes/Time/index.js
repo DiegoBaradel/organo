@@ -14,9 +14,11 @@ const Time = (props)=>{
                         nome={colaborador.nome}
                         cargo={colaborador.cargo}
                         imagem={colaborador.imagem}
+                        id={colaborador.id}
+                        favorito={colaborador.favorito}
                         corPrimariaTime = {props.corPrimariaTime}
                         aoDeletar = {props.aoDeletar}
-                        id = {props.id}
+                        aofavoritar = {props.aofavoritar}
                     />)}
                 </div>
             </section>

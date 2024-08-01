@@ -22,6 +22,10 @@ function App() {
       return time
     }))
   }
+  const aoSalvarNovoTime =(time, cor)=>{
+    setInfoTime([...infoTime,{id:uuidv4(), nomeTime:time, corPrimariaTime:cor, corSegundaricaTime: hexToRgba(cor, 0.6)}])
+  }
+
   const [infoTime, setInfoTime]= useState([
     { id: uuidv4(),
       nomeTime:'Programação',
@@ -65,12 +69,23 @@ function App() {
   const adicionarColaboradorLista = (novoColaborador)=>{
     setColaborador([...colaborador, novoColaborador])
   }
+
+  const aofavoritar = (id)=>{
+    setColaborador(colaborador.map(item=>{
+      if (item.id === id) {
+        item.favorito = !item.favorito
+      }
+      return item
+    }))
+  }
+
   return (
     <div className="App">
       <Banner />
       <Formulario 
         adicionarColaborador={adicionarColaboradorLista}
         time={infoTime.map(time => time.nomeTime)}
+        aoSalvarNovoTime = {aoSalvarNovoTime}
       />
       {infoTime.map(time => 
         <Time 
@@ -82,6 +97,7 @@ function App() {
           colaboradores = {colaborador.filter(item => item.grupo === time.nomeTime)}
           aoDeletar = {aoDeletarColaborador}
           mudarCor = {mudarCorTime}
+          aofavoritar = {aofavoritar}
         />
       )}
       <RodaPe />

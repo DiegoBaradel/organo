@@ -1,0 +1,13 @@
+.container-botao{
+    display: flex;
+    justify-content: space-between;
+    margin:0 10% 20px 10% ;
+}
+
+.container-botao h2{
+    width: 100%;
+    color: #6278F7;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+}

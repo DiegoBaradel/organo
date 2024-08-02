@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import hexToRgba from 'hex-to-rgba';
 import './App.css';
@@ -6,8 +6,14 @@ import Banner from './componentes/Banner/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
 import RodaPe from './componentes/RodaPe';
+import MostrarFormulario from './componentes/MostrarFormulario';
 
 function App() {
+  let [mostrarForm, setMostrarForm] = useState(true)
+
+  const mostrarEsconderFormulario = ()=>{
+    setMostrarForm (mostrarForm = !mostrarForm)
+  }
 
   const aoDeletarColaborador = (id)=>{
     console.log(id)
@@ -65,6 +71,14 @@ function App() {
   ])
 
   const [colaborador, setColaborador] = useState([])
+
+  //  useEffect(()=>{
+  //    fetch('http://localhost:8080/doguinhos')
+  //     .them(res => res.json())
+  //     .them(dados =>{
+  //     setColaborador(dados)
+  //     })
+  // },[])
   
   const adicionarColaboradorLista = (novoColaborador)=>{
     setColaborador([...colaborador, novoColaborador])
@@ -82,10 +96,16 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Formulario 
-        adicionarColaborador={adicionarColaboradorLista}
-        time={infoTime.map(time => time.nomeTime)}
-        aoSalvarNovoTime = {aoSalvarNovoTime}
+      {mostrarForm
+        ?<Formulario 
+          adicionarColaborador={adicionarColaboradorLista}
+          time={infoTime.map(time => time.nomeTime)}
+          aoSalvarNovoTime = {aoSalvarNovoTime}
+        />
+        :''
+      }
+      <MostrarFormulario 
+        mostrarEsconderFormulario = {mostrarEsconderFormulario}
       />
       {infoTime.map(time => 
         <Time 

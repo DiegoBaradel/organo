@@ -9,10 +9,10 @@ import RodaPe from './componentes/RodaPe';
 import MostrarFormulario from './componentes/MostrarFormulario';
 
 function App() {
-  let [mostrarForm, setMostrarForm] = useState(true)
+  const [mostrarForm, setMostrarForm] = useState(true)
 
   const mostrarEsconderFormulario = ()=>{
-    setMostrarForm (mostrarForm = !mostrarForm)
+    setMostrarForm (valor => valor = !valor)
   }
 
   const aoDeletarColaborador = (id)=>{
@@ -72,15 +72,16 @@ function App() {
 
   const [colaborador, setColaborador] = useState([])
 
-  //  useEffect(()=>{
-  //    fetch('http://localhost:8080/doguinhos')
-  //     .them(res => res.json())
-  //     .them(dados =>{
-  //     setColaborador(dados)
-  //     })
-  // },[])
+   useEffect(()=>{
+    fetch('http://localhost:8080/colaboradores')
+      .then(res => res.json())
+     .then(dados =>{
+     setColaborador([...dados])
+      })
+   },[])
   
   const adicionarColaboradorLista = (novoColaborador)=>{
+    console.log(novoColaborador)
     setColaborador([...colaborador, novoColaborador])
   }
 

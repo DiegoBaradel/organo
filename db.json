@@ -4,97 +4,225 @@
             "cargo": "dev",
             "favorito": "undefined",
             "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "id": "1",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
             "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "id": "2",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
             "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "id": "3",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
             "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "id": "4",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Inovação e Gestão",
+            "id": "5",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Inovação e Gestão",
+            "id": "6",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Inovação e Gestão",
+            "id": "7",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Inovação e Gestão",
+            "id": "8",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Mobile",
+            "id": "9",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Mobile",
+            "id": "10",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Mobile",
+            "id": "11",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
         },
         {
             "cargo": "dev",
             "favorito": "undefined",
-            "grupo": "Front-End",
-            "id": "0165a069-548a-40b7-9970-f879687e4111",
-            "imagem": "imagem",
-            "nome": "diego"
+            "grupo": "Mobile",
+            "id": "12",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "UX e Design",
+            "id": "13",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "UX e Design",
+            "id": "14",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "UX e Design",
+            "id": "15",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "UX e Design",
+            "id": "16",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Devops",
+            "id": "17",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Devops",
+            "id": "18",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Devops",
+            "id": "19",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Devops",
+            "id": "20",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Data Science",
+            "id": "21",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Data Science",
+            "id": "22",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Data Science",
+            "id": "23",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Data Science",
+            "id": "24",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Programação",
+            "id": "25",
+            "imagem": "https://img.odcdn.com.br/wp-content/uploads/2021/05/Pateta.jpg",
+            "nome": "Pateta"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Programação",
+            "id": "26",
+            "imagem": "https://i.etsystatic.com/45277786/r/il/77fd1f/5466555082/il_570xN.5466555082_kdby.jpg",
+            "nome": "mickey mouse"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Programação",
+            "id": "27",
+            "imagem": "https://ocidadao.pt/wp-content/uploads/2024/06/donald.png",
+            "nome": "Donald"
+        },
+        {
+            "cargo": "dev",
+            "favorito": "undefined",
+            "grupo": "Programação",
+            "id": "28",
+            "imagem": "https://i.pinimg.com/236x/e1/88/45/e1884567538ece0062aad3ac62e886eb.jpg",
+            "nome": "Bago"
         }
 
     ]
